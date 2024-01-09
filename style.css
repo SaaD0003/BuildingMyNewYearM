@@ -1,11 +1,11 @@
 div {
   max-width: 100%;
   max-height: auto;
-  margin: auto;
-  margin-bottom: 160px;
+  margin-bottom: 15px;
   background-repeat: no-repeat;
 }
 .banner {
+  margin: auto;
   max-width: 1320px;
   min-height: 600px;
   flex-shrink: 0;
@@ -36,6 +36,8 @@ div {
   line-height: 95px;
 }
 .deal {
+  margin: auto;
+  margin-top: 120px;
   text-align: center;
 }
 #OFF {
@@ -71,6 +73,8 @@ div {
 }
 .third {
   margin: auto;
+  margin: auto;
+  margin-top: 120px;
   max-width: 1320px;
   min-height: 600px;
   flex-shrink: 0;
@@ -94,9 +98,7 @@ div {
 }
 #wmp {
   max-width: 642px;
-  margin: auto;
   margin-left: 126px;
-  padding-top: 126px;
   color: #fff;
   font-family: Merriweather;
   font-size: 64px;
@@ -106,7 +108,6 @@ div {
   letter-spacing: 7.04px;
 }
 #sp {
-  margin: auto;
   margin-left: 126px;
   max-width: 697px;
   color: rgba(255, 255, 255, 0.8);
@@ -117,7 +118,6 @@ div {
 }
 #jn {
   padding-top: 48px;
-  margin: auto;
   margin-left: 158px;
   color: #fff;
   text-align: center;
@@ -133,6 +133,7 @@ div {
 }
 
 .fourth {
+  margin: auto;
   margin-top: 120px;
   width: 1320px;
   height: 482px;
@@ -221,7 +222,7 @@ div {
   text-transform: capitalize;
 }
 #SP2 {
-  margin-top: 10px;
+  margin-top: 0px;
   max-width: 393px;
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
@@ -248,21 +249,22 @@ div {
   flex-shrink: 100%;
 }
 #div3 {
-  padding-top: 112px;
   margin: auto;
   max-height: 482px;
 }
 #year {
-  padding-top: 0;
+  margin: 0px;
+  padding-top: 112px;
   color: #f00;
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
 }
 #sp3 {
-  margin-top: 10px;
+  padding-top: 0%;
+  margin-top: 0px;
   max-width: 276px;
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
@@ -276,9 +278,235 @@ div {
   max-height: 140px;
   flex-shrink: 100%;
 }
+.div7 {
+  margin: auto;
+  margin-top: 240px;
+  max-width: 1320px;
+  height: 1320px;
+  background-size: 100% 100%;
+}
+#tbg {
+  margin: 0px;
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#OAP {
+  margin: 0px;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#sp7 {
+  max-width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+#table1 {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  gap: 15px;
+}
+.div8 {
+  margin: auto;
+  width: 1320px;
+  height: 616px;
+  flex-shrink: 100%;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  background-size: 100% 100%;
+  text-align: center;
+}
+#img8 {
+  padding-top: 80px;
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+#sn {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#sp8 {
+  text-align: center;
+  max-width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  margin: auto;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 32px;
+}
+.div8 input {
+  margin: auto;
+  width: 438px;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 20px 15px;
+  border: none;
+  outline: none;
+  border-radius: 50px 0px 0px 50px;
+}
+.div8 button {
+  width: 200px;
+  font-size: 20px;
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  background: #f00;
+  border-radius: 0px 50px 50px 0px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.div8 button:hover {
+  background: #070211;
+}
 footer {
   background: #070211;
-  margin: 50% 0% 0% 0%;
-  padding: 0% 100% 0% 100%;
+  margin: 10% 0% 0% 0%;
   max-height: 600px;
+  background-size: 100% 100%;
+  color: #fff;
+  padding: 100px 150px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+#pw {
+  display: flex;
+}
+#fimg {
+  padding: 32px;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+footer > div {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+#address {
+  max-width: 400px;
+}
+.footer-two {
+  justify-content: center;
+  gap: 10px;
+}
+footer button {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+footer button:hover {
+  color: orange;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.div6 {
+  width: 1320px;
+  margin: 200px auto;
+  min-height: 10px;
+  text-align: center;
+}
+
+.div6-p1 {
+  color: #070211;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  margin: 0;
+}
+
+.div6-p2 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin: 0;
+}
+
+.div6-p2 span {
+  color: #f00;
+}
+
+.div6-p3 {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  margin: 0;
+}
+
+.salePics {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.salePics1 {
+  height: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.salePics2 {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.salePics3 {
+  top: 70px;
+  right: 270px;
+  position: absolute;
+}
+
+.salePics4 {
+  position: absolute;
+  height: 80%;
+  bottom: 30px;
+  left: 80px;
 }
