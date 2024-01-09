@@ -319,6 +319,9 @@ div {
   display: flex;
   gap: 15px;
 }
+#table1 img:hover {
+  transform: scale(1.03);
+}
 .div8 {
   margin: auto;
   width: 1320px;
